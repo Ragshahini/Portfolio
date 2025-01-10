@@ -1,0 +1,109 @@
+:root {
+  --color-text: #ffffff;
+  --color-primary: #04152d;
+  --color-accent: #3ea6ff;
+  --color-shadow: rgba(0, 0, 0, 0.2);
+  --color-hover: #06283d;
+}
+
+.projects {
+  background-color:#04152d;
+  color: var(--color-text);
+  padding: 4rem 2rem;
+}
+
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 2.8rem;
+  margin-bottom: 3rem;
+  text-align: left;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+.projectCard {
+  background:bisque;
+  box-shadow: 0 4px 8px var(--color-shadow);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+}
+
+.projectCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px var(--color-shadow);
+}
+
+.projectImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out; /* Smooth scaling effect */
+}
+
+.projectCard:hover .projectImage {
+  transform: scale(1.1); /* Scale the image slightly on hover */
+}
+
+.projectDetails {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.projectTitle {
+  font-size: 1.5rem;
+  color:black;
+  margin-bottom: 1rem;
+}
+
+.projectDescription {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color:black;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tech {
+  background: var(--color-hover);
+  border-radius: 8px;
+  padding: 0.4rem 0.8rem;
+  font-size: 0.9rem;
+  color: var(--color-text);
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.githubLink {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--color-text);
+  background-color:blueviolet;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px var(--color-shadow);
+}
+
+.githubLink:hover {
+  background-color: #1e90ff; /* Brighter accent color */
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px var(--color-shadow);
+}

@@ -1,0 +1,74 @@
+@import "../../vars.css";
+
+.navbar {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: relative;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.menu {
+  position: relative;
+}
+
+.menuBtn {
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  top: -1rem;
+  right: 1rem;
+  width: 32px;
+  height: 32px;
+  z-index: 2;
+}
+
+.dropdown {
+  position: absolute;
+  top: 3rem;
+  right: 1rem;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.dropdown a {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 0.8rem;
+}
+
+.dropdown a:hover {
+  text-decoration: underline;
+  background-color: rgba(255, 255, 255, 0.1); /* Optional hover effect */
+}
+
+@media screen and (max-width: 830px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu {
+    position: relative;
+  }
+
+  .dropdown {
+    right: 0; /* Adjust for mobile alignment */
+  }
+}
