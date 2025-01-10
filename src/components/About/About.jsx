@@ -14,7 +14,7 @@ const About = () => {
           <div className={styles.heroImage}>
             {/* Corrected Image Path */}
             <img
-              src="C:\Users\HP ZBook 15 G7\Desktop\Portfolio\Portfolio\public\assets\about\aboutImage.png"
+              src="\assets\about\aboutImage.png"
               alt="Laptop used for UI/UX work"
               className={styles.image}
             />
@@ -26,7 +26,7 @@ const About = () => {
           {/* Card 1 */}
           <div className={styles.card}>
             <img
-              src="C:\Users\HP ZBook 15 G7\Desktop\Portfolio\Portfolio\public\assets\about\cursorIcon.png"
+              src="\assets\about\cursorIcon.png"
               alt="Frontend Icon"
               className={styles.cardIcon}
             />
@@ -40,7 +40,7 @@ const About = () => {
           {/* Card 2 */}
           <div className={styles.card}>
             <img
-              src="C:\Users\HP ZBook 15 G7\Desktop\Portfolio\Portfolio\public\assets\about\serverIcon.png"
+              src="\assets\about\serverIcon.png"
               alt="Backend Icon"
               className={styles.cardIcon}
             />
@@ -54,7 +54,7 @@ const About = () => {
           {/* Card 3 */}
           <div className={styles.card}>
             <img
-              src="C:\Users\HP ZBook 15 G7\Desktop\Portfolio\Portfolio\public\assets\about\uiIcon.png"
+              src="\assets\about\uiIcon.png"
               alt="UI/UX Icon"
               className={styles.cardIcon}
             />
