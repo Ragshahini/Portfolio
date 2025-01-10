@@ -37,7 +37,7 @@ const Navbar = () => {
       <div className={styles.menu}>
         <img
           className={styles.menuBtn}
-          src={isMenuOpen ? '/assets/nav/closeIcon.png' : '/assets/nav/menuIcon.png'}
+          src={isMenuOpen ? '/public/assets/nav/closeIcon.png' : '/public/assets/nav/menuIcon.png'}
           alt={isMenuOpen ? 'close-button' : 'menu-button'}
           onClick={toggleMenu}
         />

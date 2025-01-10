@@ -12,7 +12,7 @@ const About = () => {
         {/* Left: Circular Image */}
         <div className={styles.imageContainer}>
           <div className={styles.heroImage}>
-            <img src="/assets/about/aboutImage.png" alt="Laptop" />
+            <img src="/public/assets/about/aboutImage.png" alt="Laptop" />
           </div>
         </div>
 

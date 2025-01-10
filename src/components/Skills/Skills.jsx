@@ -14,31 +14,31 @@ const Skills = () => {
           <ul className={styles.skillList}>
             <li>
               <div className={styles.skillItem}>
-                <img src="/assets/skills/java.jfif" alt="Java" />
+                <img src="/public/assets/skills/java.jfif" alt="Java" />
                 <span>Java</span>
               </div>
             </li>
             <li>
               <div className={styles.skillItem}>
-                <img src="/assets/skills/javascript.png" alt="JavaScript" />
+                <img src="/public/assets/skills/javascript.png" alt="JavaScript" />
                 <span>JavaScript</span>
               </div>
             </li>
             <li>
               <div className={styles.skillItem}>
-                <img src="/assets/skills/c++.webp" alt="C++" />
+                <img src="/public/assets/skills/c++.webp" alt="C++" />
                 <span>C++</span>
               </div>
             </li>
             <li>
               <div className={styles.skillItem}>
-                <img src="/assets/skills/html.png" alt="HTML" />
+                <img src="/public/assets/skills/html.png" alt="HTML" />
                 <span>HTML</span>
               </div>
             </li>
             <li>
               <div className={styles.skillItem}>
-                <img src="/assets/skills/css.png" alt="CSS" />
+                <img src="/public/assets/skills/css.png" alt="CSS" />
                 <span>CSS</span>
               </div>
             </li>
@@ -51,31 +51,31 @@ const Skills = () => {
           <ul className={styles.skillList}>
             <li>
               <div className={styles.skillItem}>
-                <img src="/assets/skills/react.png" alt="React" />
+                <img src="/public/assets/skills/react.png" alt="React" />
                 <span>React</span>
               </div>
             </li>
             <li>
               <div className={styles.skillItem}>
-                <img src="/assets/skills/node.png" alt="Node.js" />
+                <img src="/public/assets/skills/node.png" alt="Node.js" />
                 <span>Node.js</span>
               </div>
             </li>
             <li>
               <div className={styles.skillItem}>
-                <img src="/assets/skills/php.jfif" alt="PHP" />
+                <img src="/public/assets/skills/php.jfif" alt="PHP" />
                 <span>PHP</span>
               </div>
             </li>
             <li>
               <div className={styles.skillItem}>
-                <img src="/assets/skills/firebase.png" alt="Firebase" />
+                <img src="/public/assets/skills/firebase.png" alt="Firebase" />
                 <span>Firebase</span>
               </div>
             </li>
             <li>
               <div className={styles.skillItem}>
-                <img src="/assets/skills/android.jfif" alt="Android Studio" />
+                <img src="/public/assets/skills/android.jfif" alt="Android Studio" />
                 <span>Android Studio</span>
               </div>
             </li>
@@ -88,19 +88,19 @@ const Skills = () => {
           <ul className={styles.skillList}>
             <li>
               <div className={styles.skillItem}>
-                <img src="/assets/skills/figma.png" alt="Figma" />
+                <img src="/public/assets/skills/figma.png" alt="Figma" />
                 <span>Figma</span>
               </div>
             </li>
             <li>
               <div className={styles.skillItem}>
-                <img src="/assets/skills/ps.png" alt="Photoshop" />
+                <img src="/public/assets/skills/ps.png" alt="Photoshop" />
                 <span>Photoshop</span>
               </div>
             </li>
             <li>
               <div className={styles.skillItem}>
-                <img src="/assets/skills/dw.png" alt="Dreamweaver" />
+                <img src="/public/assets/skills/dw.png" alt="Dreamweaver" />
                 <span>Dreamweaver</span>
               </div>
             </li>
@@ -113,19 +113,19 @@ const Skills = () => {
           <ul className={styles.skillList}>
             <li>
               <div className={styles.skillItem}>
-                <img src="/assets/skills/mongodb.png" alt="MongoDB" />
+                <img src="/public/assets/skills/mongodb.png" alt="MongoDB" />
                 <span>MongoDB</span>
               </div>
             </li>
             <li>
               <div className={styles.skillItem}>
-                <img src="/assets/skills/mysql.png" alt="MySQL" />
+                <img src="/public/assets/skills/mysql.png" alt="MySQL" />
                 <span>MySQL</span>
               </div>
             </li>
             <li>
               <div className={styles.skillItem}>
-                <img src="/assets/skills/R.png" alt="R Studio" />
+                <img src="/public/assets/skills/R.png" alt="R Studio" />
                 <span>R Studio</span>
               </div>
             </li>

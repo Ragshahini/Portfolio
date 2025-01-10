@@ -245,7 +245,7 @@
 /* Social Links Section */
 .socialLinks {
   position: absolute;
-  bottom: 120px;
+  bottom: 90px;
   left: 100px; /* Adjust this value to move the social icons to the right */
   display: flex;
   gap: 1.5rem;

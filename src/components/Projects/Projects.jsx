@@ -8,7 +8,7 @@ const Projects = () => {
       description:
         "A platform for tourist to manage their adventure trips, booking places, and more.",
       technologies: ["HTML", "CSS", "JavaScript"],
-      image: "/assets/projects/trip.jpg",
+      image: "/public/assets/projects/trip.jpg",
       github: "https://github.com/Ragshahini/SLKTravel",
     },
     {
@@ -16,7 +16,7 @@ const Projects = () => {
       description:
         "A comprehensive platform to explore and book houses, apartments, and buildings for rent or purchase, tailored for travelers and locals seeking convenient and seamless property management solutions.",
       technologies: ["HTML", "CSS", "JavaScript"],
-      image: "/assets/projects/build.jfif",
+      image: "/public/assets/projects/build.jfif",
       github: "https://github.com/Ragshahini/RentNest",
     },
     {
@@ -24,7 +24,7 @@ const Projects = () => {
       description:
         "A trusted platform for buying and selling high-quality box bars, copper, and brass materials, catering to industries and individuals with reliable, durable, and cost-effective solutions for their manufacturing and construction needs.",
       technologies: ["React", "Firebase", "JavaScript"],
-      image: "/assets/projects/metal.jfif",
+      image: "/public/assets/projects/metal.jfif",
       github: "https://github.com/Ragshahini/SKMetals",
     },
     {
@@ -32,7 +32,7 @@ const Projects = () => {
       description:
         "A comprehensive integrated system for car service management, offering seamless features like parts inventory management, service tracking, POS integration, stock management, and user management. This platform streamlines operations, enhances efficiency, and ensures smooth service delivery for both customers and service providers.",
       technologies: ["Java", "CSS", "MongoDB"],
-      image: "/assets/projects/car.jfif",
+      image: "/public/assets/projects/car.jfif",
       github: "https://github.com/Ragshahini/OOP_Cars",
     },
     {
@@ -40,7 +40,7 @@ const Projects = () => {
       description:
         "A diverse food website offering a variety of cuisines including Indian, Sri Lankan, Chinese, and homemade buns. This platform brings together a wide range of delicious dishes, allowing food enthusiasts to explore and enjoy authentic flavors from different cultures, all in one place.",
       technologies: ["JavaScript", "CSS", "HTML"],
-      image: "/assets/projects/food.jfif",
+      image: "/public/assets/projects/food.jfif",
       github: "https://github.com/Ragshahini/Royal-Food",
     },
   ];
