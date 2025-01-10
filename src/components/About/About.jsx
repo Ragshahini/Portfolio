@@ -13,10 +13,10 @@ const About = () => {
         <div className={styles.imageContainer}>
           <div className={styles.heroImage}>
             {/* Corrected Image Path */}
-            <img
-              src="/assets/about/aboutImage.png"
-              alt="Laptop used for UI/UX work"
-              className={styles.image}
+            <img 
+              src="/assets/about/aboutImage.png" 
+              alt="Laptop" 
+              className={styles.image} // Properly add className to the img tag
             />
           </div>
         </div>
