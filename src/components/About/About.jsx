@@ -3,7 +3,7 @@ import styles from './About.module.css';
 
 const About = () => {
   return (
-    <section id="about" className={styles.about}> {/* Added id="about" */}
+    <section id="about" className={styles.about}>
       {/* Title */}
       <h2 className={styles.title}>About</h2>
 
@@ -12,7 +12,12 @@ const About = () => {
         {/* Left: Circular Image */}
         <div className={styles.imageContainer}>
           <div className={styles.heroImage}>
-            <img src="/assets/about/aboutImage.png" alt="Laptop" />
+            {/* Corrected Image Path */}
+            <img
+              src="/assets/about/aboutImage.png"
+              alt="Laptop used for UI/UX work"
+              className={styles.image}
+            />
           </div>
         </div>
 
@@ -20,6 +25,11 @@ const About = () => {
         <div className={styles.textContainer}>
           {/* Card 1 */}
           <div className={styles.card}>
+            <img
+              src="/assets/about/cursorIcon.png"
+              alt="Frontend Icon"
+              className={styles.cardIcon}
+            />
             <h3>Frontend Developer</h3>
             <p>
               I specialize in crafting responsive, intuitive, and optimized user
@@ -29,17 +39,29 @@ const About = () => {
 
           {/* Card 2 */}
           <div className={styles.card}>
+            <img
+              src="/assets/about/serverIcon.png"
+              alt="Backend Icon"
+              className={styles.cardIcon}
+            />
             <h3>Backend Developer</h3>
             <p>
-              Experienced in building scalable APIs and efficient backend solutions.
+              Experienced in building scalable APIs and efficient backend
+              solutions.
             </p>
           </div>
 
           {/* Card 3 */}
           <div className={styles.card}>
+            <img
+              src="/assets/about/uiIcon.png"
+              alt="UI/UX Icon"
+              className={styles.cardIcon}
+            />
             <h3>UI/UX Designer</h3>
             <p>
-              I design seamless user experiences and visually captivating interfaces.
+              I design seamless user experiences and visually captivating
+              interfaces.
             </p>
           </div>
         </div>
