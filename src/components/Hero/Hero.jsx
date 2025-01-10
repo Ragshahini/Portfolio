@@ -24,9 +24,9 @@ const Hero = () => {
   return (
     <section className={styles.hero}>
       {/* Bubbles */}
-      <div className={styles.bubble + ' ' + styles.bubble1}></div>
-      <div className={styles.bubble + ' ' + styles.bubble2}></div>
-      <div className={styles.bubble + ' ' + styles.bubble3}></div>
+      <div className={`${styles.bubble} ${styles.bubble1}`}></div>
+      <div className={`${styles.bubble} ${styles.bubble2}`}></div>
+      <div className={`${styles.bubble} ${styles.bubble3}`}></div>
 
       <div className={styles.heroContent}>
         <h1 className={styles.title}>Hi, I'm Ragshahini Navarathna</h1>
@@ -48,14 +48,14 @@ const Hero = () => {
             {dropdownOpen && (
               <div className={styles.dropdownContent}>
                 <a
-                  href="public\RAGSHAHINI NAVARATHNA-CV.pdf"
+                  href="/RAGSHAHINI NAVARATHNA-CV.pdf"
                   className={styles.dropdownItem}
                   download
                 >
                   Software Engineering CV
                 </a>
                 <a
-                  href="public\RAGSHAHINI NAVARATHNA_CV.pdf"
+                  href="/RAGSHAHINI NAVARATHNA_CV.pdf"
                   className={styles.dropdownItem}
                   download
                 >
@@ -72,32 +72,31 @@ const Hero = () => {
 
       {/* Social Links */}
       <div className={styles.socialLinks}>
-  <a
-    href="mailto:ragsha2005@gmail.com"
-    className={styles.socialIcon}
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <img src="/assets/icons/email.png" alt="Email" />
-  </a>
-  <a
-    href="https://www.linkedin.com/in/ragshahini-navarathna"
-    className={styles.socialIcon}
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <img src="/assets/icons/linkedin.png" alt="LinkedIn" />
-  </a>
-  <a
-    href="https://github.com/Ragshahini"
-    className={styles.socialIcon}
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    <img src="/assets/icons/github.png" alt="GitHub" />
-  </a>
-</div>
-
+        <a
+          href="mailto:ragsha2005@gmail.com"
+          className={styles.socialIcon}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/assets/icons/email.png" alt="Email" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ragshahini-navarathna"
+          className={styles.socialIcon}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/assets/icons/linkedin.png" alt="LinkedIn" />
+        </a>
+        <a
+          href="https://github.com/Ragshahini"
+          className={styles.socialIcon}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/assets/icons/github.png" alt="GitHub" />
+        </a>
+      </div>
     </section>
   );
 };
