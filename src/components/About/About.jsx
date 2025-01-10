@@ -14,7 +14,7 @@ const About = () => {
           <div className={styles.heroImage}>
             {/* Corrected Image Path */}
             <img
-              src="\assets\about\aboutImage.png"
+              src="/assets/about/aboutImage.png"
               alt="Laptop used for UI/UX work"
               className={styles.image}
             />
