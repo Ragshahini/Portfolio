@@ -68,7 +68,7 @@ const Hero = () => {
       </div>
 
       {/* Hero Image */}
-      <img src="/public/assets/hero/heroImage.jfif" alt="Hero image of me" />
+      <img src="/assets/hero/heroImage.jfif" alt="Hero image of me" />
 
       {/* Social Links */}
       <div className={styles.socialLinks}>
@@ -78,7 +78,7 @@ const Hero = () => {
     target="_blank"
     rel="noopener noreferrer"
   >
-    <img src="/public/assets/icons/email.png" alt="Email" />
+    <img src="/assets/icons/email.png" alt="Email" />
   </a>
   <a
     href="https://www.linkedin.com/in/ragshahini-navarathna"
@@ -86,7 +86,7 @@ const Hero = () => {
     target="_blank"
     rel="noopener noreferrer"
   >
-    <img src="/public/assets/icons/linkedin.png" alt="LinkedIn" />
+    <img src="/assets/icons/linkedin.png" alt="LinkedIn" />
   </a>
   <a
     href="https://github.com/Ragshahini"
@@ -94,7 +94,7 @@ const Hero = () => {
     target="_blank"
     rel="noopener noreferrer"
   >
-    <img src="/public/assets/icons/github.png" alt="GitHub" />
+    <img src="/assets/icons/github.png" alt="GitHub" />
   </a>
 </div>
 
