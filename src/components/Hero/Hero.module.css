@@ -6,6 +6,7 @@
   --color-bg: #04152d;
   --font-robot: 'Roboto', sans-serif;
   --light-blue: #add8e6; /* Light blue color */
+  --dark-blur: rgba(0, 0, 0, 0.7); /* Dark blur effect for buttons */
 }
 
 .hero {
@@ -53,37 +54,37 @@
 .contactBtn,
 .cvBtn {
   padding: 0.8rem 1.5rem;
-  background-color: var(--light-blue); /* Light blue color */
-  color: var(--color-dark);
+  background-color: var(--dark-blur); /* Dark blur effect */
+  color: var(--color-text); /* White text */
   text-decoration: none;
   border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0.5rem; /* Space between icon and text */
+  gap: 0.5rem;
   transition: background-color 0.3s, transform 0.3s;
 }
 
 .contactBtn:hover,
 .cvBtn:hover {
-  background-color: var(--color-secondary); /* Darker hover effect */
   transform: scale(1.05);
+  background-color: var(--color-secondary); /* Darker hover effect */
 }
 
 /* Icon Styles */
 .buttonIcon {
-  width: 30px; /* Adjust to fit within the button */
+  width: 30px;
   height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fff; /* White background for the icon */
-  border-radius: 50%; /* Circle shape for the icon background */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .buttonIcon img {
-  width: 18px; /* Fit the icon inside the circle */
+  width: 18px;
   height: 18px;
 }
 
@@ -96,9 +97,9 @@
   align-items: center;
   justify-content: space-between;
   padding: 0.8rem 1.5rem;
-  background-color: var(--light-blue);
+  background-color: var(--dark-blur);
   border-radius: 5px;
-  color: var(--color-dark);
+  color: var(--color-text);
   font-size: 1.2rem;
   transition: background-color 0.3s;
 }
@@ -147,6 +148,23 @@
   right: 60px;
 }
 
+.socialLinks {
+  position: absolute;
+  bottom: 80px;
+  left: 100px;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.socialIcon img {
+  width: 50px;
+  height: 50px;
+}
+
+.socialIcon {
+  pointer-events: none; /* Remove hover effect */
+}
+
 /* Bubble animations */
 .bubble {
   position: absolute;
@@ -181,6 +199,7 @@
   left: 40%;
 }
 
+/* Animations */
 @keyframes bubble {
   0% {
     transform: scale(0.5) translateY(0);
@@ -204,7 +223,6 @@
   }
 }
 
-/* Animations */
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -240,27 +258,4 @@
     opacity: 1;
     transform: scale(1) rotate(0deg);
   }
-}
-
-/* Social Links Section */
-.socialLinks {
-  position: absolute;
-  bottom: 90px;
-  left: 100px; /* Adjust this value to move the social icons to the right */
-  display: flex;
-  gap: 1.5rem;
-}
-
-
-
-
-.socialIcon img {
-  width: 50px;
-  height: 50px;
-
-}
-
-.socialIcon:hover {
-  transform: scale(1.1);
-  background-color: var(--color-primary);
 }
