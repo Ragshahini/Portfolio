@@ -69,7 +69,8 @@
   }
 
   .dropdown {
-    right: 1rem; /* Ensure dropdown remains aligned to the right */
-    left: auto;  /* Prevent any left alignment */
+    top: 3rem;     /* Ensures proper vertical alignment */
+    right: 1rem;   /* Keeps dropdown aligned to the right */
+    left: auto;    /* Prevents dropdown from aligning to the left */
   }
 }
