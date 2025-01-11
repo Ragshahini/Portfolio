@@ -68,6 +68,12 @@
     position: relative;
   }
 
+  .menuBtn {
+    left: 1rem;    /* Align menu button to the left */
+    right: auto;   /* Prevent right alignment */
+    top: 0;        /* Adjust position */
+  }
+
   .dropdown {
     top: 3rem;     /* Ensures proper vertical alignment */
     left: 1rem;    /* Aligns dropdown to the left */
