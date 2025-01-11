@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import styles from './Hero.module.css';
+import { getImageUrl } from '../utils/getImageUrl'; // Adjust the path based on where the utility is defined
 
 const Hero = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -48,14 +49,14 @@ const Hero = () => {
             {dropdownOpen && (
               <div className={styles.dropdownContent}>
                 <a
-                  href="/RAGSHAHINI NAVARATHNA-CV.pdf"
+                  href={getImageUrl('RAGSHAHINI NAVARATHNA-CV.pdf')}
                   className={styles.dropdownItem}
                   download
                 >
                   Software Engineering CV
                 </a>
                 <a
-                  href="/RAGSHAHINI NAVARATHNA_CV.pdf"
+                  href={getImageUrl('RAGSHAHINI NAVARATHNA_CV.pdf')}
                   className={styles.dropdownItem}
                   download
                 >
@@ -68,7 +69,10 @@ const Hero = () => {
       </div>
 
       {/* Hero Image */}
-      <img src="/assets/hero/heroImage.jfif" alt="Hero image of me" />
+      <img
+        src={getImageUrl('hero/heroImage.jfif')}
+        alt="Hero image of me"
+      />
 
       {/* Social Links */}
       <div className={styles.socialLinks}>
@@ -78,7 +82,7 @@ const Hero = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/assets/icons/email.png" alt="Email" />
+          <img src={getImageUrl('icons/email.png')} alt="Email" />
         </a>
         <a
           href="https://www.linkedin.com/in/ragshahini-navarathna"
@@ -86,7 +90,7 @@ const Hero = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/assets/icons/linkedin.png" alt="LinkedIn" />
+          <img src={getImageUrl('icons/linkedin.png')} alt="LinkedIn" />
         </a>
         <a
           href="https://github.com/Ragshahini"
@@ -94,7 +98,7 @@ const Hero = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/assets/icons/github.png" alt="GitHub" />
+          <img src={getImageUrl('icons/github.png')} alt="GitHub" />
         </a>
       </div>
     </section>
