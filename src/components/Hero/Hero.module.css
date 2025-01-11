@@ -18,6 +18,7 @@
   height: 100vh;
   overflow: hidden;
   position: relative;
+  flex-wrap: wrap; /* Allow flex items to wrap on smaller screens */
 }
 
 .heroContent {
@@ -25,6 +26,7 @@
   color: var(--color-text);
   position: relative;
   animation: slideIn 1.5s ease-out;
+  flex: 1; /* Allow it to take up available space */
 }
 
 .title {
@@ -257,5 +259,70 @@
   100% {
     opacity: 1;
     transform: scale(1) rotate(0deg);
+  }
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .heroContent {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .title {
+    font-size: 2.2rem;
+  }
+
+  .description {
+    font-size: 1.1rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .cvDropdown {
+    width: 100%;
+  }
+
+  .hero img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 2rem;
+  }
+
+  .socialLinks {
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    gap: 1rem;
+  }
+
+  .socialIcon img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .cvBtn {
+    font-size: 1rem;
   }
 }
