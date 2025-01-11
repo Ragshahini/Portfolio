@@ -69,8 +69,8 @@
   }
 
   .menuBtn {
-    left: 1rem;    /* Align menu button to the left */
-    right: auto;   /* Prevent right alignment */
+    right: 1rem;    /* Align menu button to the left */
+    left: auto;   /* Prevent right alignment */
     top: 0;        /* Adjust position */
   }
 
