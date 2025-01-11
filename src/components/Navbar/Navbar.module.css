@@ -69,6 +69,7 @@
   }
 
   .dropdown {
-    right: 0; /* Adjust for mobile alignment */
+    right: 1rem; /* Ensure dropdown remains aligned to the right */
+    left: auto;  /* Prevent any left alignment */
   }
 }
